@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 30px;
+  font-family: "Prosto One", sans-serif;
+}
+
+.page-wrapper {
+  max-width: 440px;
+  margin: auto;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: 0px 0px 20px 0px rgba(132, 132, 132, 0.3);
+  background: rgb(247, 247, 247);
+}
+
+.header {
+  padding: 184px 19px 17px;
+  background: url("../img/header.png") no-repeat center / cover;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.name {
+  color: rgb(158, 156, 156);
+  font-size: 20px;
+  line-height: 25px;
+  text-shadow: 0 0 5px #ffffff;
+  -webkit-text-stroke: 0.25px #ffffff;
+}
+
+.name-text {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 14px;
+  margin-top: 10px;
+}
